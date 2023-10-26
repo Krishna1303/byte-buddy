@@ -16,7 +16,7 @@ jobs:
     - name: Set up JDK
       uses: actions/setup-java@v2
       with:
-        java-version: 11  # Use the appropriate Java version
+        java-version: 11
         distribution: 'adopt'
 
     - name: Build and Install
