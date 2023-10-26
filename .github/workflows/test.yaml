@@ -16,7 +16,7 @@ jobs:
     - name: Set up JDK
       uses: actions/setup-java@v2
       with:
-        java: 11  # Use the appropriate Java version
+        java-version: 11  # Use the appropriate Java version
 
     - name: Build and Install
       run: mvn clean install -DskipTests -pl byte-buddy-dep -am
